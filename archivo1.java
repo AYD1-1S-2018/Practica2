@@ -29,5 +29,17 @@ class Archivo1{
 	        String resultado = Integer.toString(c1, 2);
         	return resultado;
 	}
+	public static String Potencia(String a, int exp){
+		int a1 = Integer.parseInt(a, 2);
+		int c1 = (int)Math.pow(a1, exp);
+		String resultado = Integer.toString(c1, 2);
+		return resultado;
+	}
+	public static String Raiz_Cuadrada(String a){
+		int a1 = Integer.parseInt(a, 2);
+		float c1 = (float)Math.sqrt(a1);
+		String resultado = Float.toString(c1);
+		return resultado;
+	}
 }
 
