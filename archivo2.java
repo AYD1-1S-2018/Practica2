@@ -1,5 +1,5 @@
 class Archivo2{
-	public static int factorial(int n){
+	public static int factorial_i(int n){
 		int fact=1;
     		int i;
     		if (n==0){
@@ -10,5 +10,12 @@ class Archivo2{
 			}
 		}
 		return fact;
+	}
+	public static int factorial_r(int n){
+		if (n==0){
+		        return 1;
+    		}else{
+        		return n*(factorial(n-1));
+		}
 	}
 }
