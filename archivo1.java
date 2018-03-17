@@ -29,5 +29,11 @@ class Archivo1{
 	        String resultado = Integer.toString(c1, 2);
         	return resultado;
 	}
+	public static String Potencia(String a, int exp){
+		int a1 = Integer.parseInt(a, 2);
+		int c1 = (int)Math.pow(a1, exp);
+		String resultado = Integer.toString(c1, 2);
+		return resultado;
+	}
 }
 
