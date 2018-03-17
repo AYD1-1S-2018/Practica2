@@ -5,6 +5,7 @@ class Archivo1{
         	int c1 = a1 + b1;
         	String resultado = Integer.toString(c1, 2);
         	return resultado;
+		//MODIFICACION
     	}
 
  	public static String Multiplicacion(String a, String b) {
