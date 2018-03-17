@@ -41,6 +41,9 @@ class Archivo1{
 		float c1 = (float)Math.sqrt(a1);
 		String resultado = Float.toString(c1);
 		return resultado;
+	}
+	public static int Modulo(int a){
+
 	} 
 }
 
